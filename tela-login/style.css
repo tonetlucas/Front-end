@@ -1,0 +1,58 @@
+:root{
+    --verde: #3af85a;
+    --roxo: #8e2ceb;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to bottom, #3af85a, #8e2ceb);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+/*Definindo cor de fundo*/
+.login{
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 60px;
+    border-radius: 0px 9px;
+}
+.login input{
+    padding: 0.8rem;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #2f2c45;
+    background: #272530;
+    border-radius: 5px;
+    font-size: 17px;
+    outline: none;
+    transition: all 0.3s;
+    color: #fff;
+}
+.login input:focus{
+    border: 2px solid #7e4ccb;
+}
+/*cor após o clique*/
+.btn{
+    width: 150px;
+    height: 45px;
+    border-radius: 45px;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    background: #2ceae5;
+    transform: translateY(-7px);
+    color: #fff;
+    box-shadow: 0px 10px 25px rgba(46, 223, 229, 0.445);
+}
